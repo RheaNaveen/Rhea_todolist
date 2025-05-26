@@ -4,7 +4,7 @@
 **Author:** Rhea K N  
 **Submission Title:** Rhea_KN_Todolist  
 **Submission Type:** Phase 2 – Full Stack Implementation  
-**Repository:** [GitHub - Rhea_KN_Todolist](https://github.com/RheaNaveen/Rhea_KN_Todolist.git)
+**Repository:** 
 
 ---
 
