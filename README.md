@@ -83,13 +83,16 @@ Rhea_KN_Todolist/
    git clone https://github.com/RheaNaveen/Rhea_KN_Todolist.git
    cd Rhea_KN_Todolist
 
-Install dependencies
-
+2. **Install dependencies**
 npm install
-Configure the database
-Update connection details in db.js according to your local setup.
 
-Start the server
+3. **Configure the database**
+Update the connection details in db.js according to your local setup (host, port, DB name, etc.)
+
+4. **Start the server**
 node server.js
-Access the app
-Open your browser and go to http://localhost:3000 (or the port specified in server.js).
+
+5. **Access the application**
+Open your browser and go to:
+http://localhost:3000 (or the port specified in server.js)
+
