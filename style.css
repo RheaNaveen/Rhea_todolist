@@ -1,0 +1,185 @@
+/* Reset & base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4b79a1, #283e51);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Container for forms and main */
+#login, #signup, #main {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  max-width: 420px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h2, h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* Inputs & buttons */
+input, button {
+  display: block;
+  margin: 12px 0;
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Input styling */
+input {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #f0f0f0;
+  border: 1.5px solid transparent;
+}
+input::placeholder {
+  color: #d1d1d1;
+}
+input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: #66aaff;
+}
+
+/* Buttons */
+button {
+  background-color: #2a9df4;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 10px rgba(42, 157, 244, 0.5);
+}
+button:hover {
+  background-color: #1c7ddb;
+  box-shadow: 0 6px 14px rgba(28, 125, 219, 0.7);
+}
+
+/* Project list container */
+#projects div {
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid #2a9df4;
+  margin-bottom: 15px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* View Tasks button inside project */
+#projects button {
+  margin-top: 0;
+  width: auto;
+  padding: 6px 14px;
+  background-color: #1f77b4;
+  box-shadow: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.25s ease;
+}
+#projects button:hover {
+  background-color: #145a86;
+}
+
+
+#task-section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#task-section h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.task-list div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.task-list button {
+  margin-left: 8px;
+  padding: 5px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+.task-list button:hover {
+  background-color: #0056b3;
+}
+
+#task-section input {
+  margin-top: 8px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  box-sizing: border-box;
+}
+
+#task-section button {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+}
+
+#task-section button:hover {
+  background-color: #218838;
+}
+
+
+/* Logout button special style */
+#logoutBtn {
+  background-color: #e63946;
+  box-shadow: 0 4px 10px rgba(230, 57, 70, 0.6);
+  margin-top: 30px;
+  font-weight: 700;
+}
+#logoutBtn:hover {
+  background-color: #ab2e36;
+  box-shadow: 0 6px 14px rgba(171, 46, 54, 0.9);
+}
+
+/* Signup/Login link style */
+.link {
+  color: #66aaff;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.link:hover {
+  color: #bbdefb;
+}
